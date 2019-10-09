@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>AI Assistant</title>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Load Socket.io lib -->
+		<script src="/socket.io/socket.io.js"></script>
+
+		<!-- Load jquery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<!-- Load React API -->
+		<script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+		<!-- Load React DOM-->
+		<script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+		<!-- Load Babel Compiler -->
+		<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+		<!-- P5 sound library -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+
+		<!-- Installed P5 sound library -->
+		<script type="text/javascript" src="lib/p5.speech.js"></script>
+		
+		<!-- local files -->
+		<script type="text/javascript" src="src/script.js"></script>
+		<script type="text/javascript" src="src/ai.js"></script>
+	</head>
+	<body>
+		<div class="ai_assistant_txt">AI Assistant</div>
+		<button id="activate" onclick="activate()">Start</button>
+	</body>
+</html>

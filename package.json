@@ -1,0 +1,29 @@
+{
+	"name": "ai-assistant",
+	"version": "1.0.0",
+	"description": "This is an artificial intelligence assistant which is developed by Karan Gandhi",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"ai",
+		"assistant",
+		"ai",
+		"assistant"
+	],
+	"author": "Karan Gandhi",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.1.0",
+		"express": "^4.17.1",
+		"google-play-scraper": "^7.0.1",
+		"node-powershell": "^4.0.0",
+		"request": "^2.88.0",
+		"socket.io": "^2.3.0",
+		"weather": "^1.0.4"
+	}
+}
