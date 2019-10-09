@@ -4,6 +4,8 @@ This is an Ai assistant that accepts input through voice and gives the output al
 ## How to start
 To start first enter your nameand then press the start button. Don't forget to give all the permissions that are required
 
+**Note : You will have to say assistant before you give any command to the assistant**
+
 ## Features
 * You can ask for the weather (by saying : Assistant what is the weather) 
 * You can open any app on your PC provided you give the app name right
@@ -13,8 +15,6 @@ To start first enter your nameand then press the start button. Don't forget to g
 	* Wikipedia
 	* Google Play Store
 * Assistant will also respond to the casual conversations
-
-**Note : You will have to say assistant before you give any command to the assistant**
 
 ## Dependencies
 * I have used the following node packages :
