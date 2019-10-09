@@ -2,7 +2,7 @@
 This is an Ai assistant that accepts input through voice and gives the output also through voice
 
 ## How to start
-To start first enter your nameand then press the start button. Don't forget to give all the permissions that are required
+To start first enter your name and then press the start button. Don't forget to give all the permissions that are required
 
 **Note : You will have to say assistant before you give any command to the assistant**
 
