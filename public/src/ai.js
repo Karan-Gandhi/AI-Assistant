@@ -44,6 +44,12 @@ function respond(nonParsedinput, displayName) {
 			return sessionStorage.getItem("weather");
 		}
 
+		else if (input.toLowerCase().includes("youtube")) {
+			var s = "youtube";
+			var query = input.slice(input.indexOf(s) + s.length);
+			youtubeSearch(query);
+		}
+
 		// user says thank you
 		else if (input.toLowerCase().includes("thank you") || input.toLowerCase().includes("thanks") || input.toLowerCase().includes("thanks a lot")) {
 			output = thankYou();
