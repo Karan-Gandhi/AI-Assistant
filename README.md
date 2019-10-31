@@ -2,10 +2,7 @@
 This is an Ai assistant that accepts input through voice and gives the output also through voice
 
 ## How to start
-<<<<<<< HEAD
 To start first enter your nameand then press the start button. Don't forget to give all the permissions that are required
-=======
-To start first enter your name and then press the start button. Don't forget to give all the permissions that are required
 
 **Note : You will have to say assistant before you give any command to the assistant**
 >>>>>>> a7613eb898df44ec6a83af1d88695741b596d870
@@ -20,11 +17,8 @@ To start first enter your name and then press the start button. Don't forget to 
 	* Google Play Store
 * Assistant will also respond to the casual conversations
 
-<<<<<<< HEAD
 **Note : You will have to say assistant before you give any command to the assistant**
 
-=======
->>>>>>> a7613eb898df44ec6a83af1d88695741b596d870
 ## Dependencies
 * I have used the following node packages :
 	* Dotenv
@@ -34,8 +28,4 @@ To start first enter your name and then press the start button. Don't forget to 
 	* Request
 	* Socket.io
 	* Weather
-<<<<<<< HEAD
 * I have used the P5.js speech library for the speech output, input and the sound classification
-=======
-* I have used the P5.js speech library for the speech output, input and the sound classification
->>>>>>> a7613eb898df44ec6a83af1d88695741b596d870
